@@ -11,8 +11,9 @@ createCanvas(windowWidth, windowWidth>windowHeight? windowWidth:windowHeight);
 textAlign(CENTER, CENTER);
 imageMode(CENTER);
 for(let i = 0; i < 7; i++) {
-brys[i].resize(550, 0);
+brys[i].resize(int(windowWidth/2,469090909090909), 0);
 }
+
 }
 
 
